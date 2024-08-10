@@ -1,15 +1,38 @@
-@media screen and (max-width:576px) {
-    .navbar-container{ 
-      align-items: center;
+@media screen and (max-width: 576px) {
+  .navbar-container {
+    align-items: center;
 
+    /* align-items: center; */
+  }
 
-        /* align-items: center; */
-    }
-
-.nav-links{ 
-display: none;
-
+  .nav-links {
+    display: none;
+  }
+  .bar {
+    display: block;
+  }
+.banner-container{
+  flex-direction: column;
+  /* width: 100%; */
 }
-.bar{ display: block;}
+.banner-text{
+  width: 100%;
+}
+.btn-responsive{
+  flex-direction: row;
+}
+.banner-img{
+  width: 100%;
+}
+.video-tutorial{
+  top: 45%;
+  left: 9%;
+}
+.workout-videos{
+  padding: 5px 10px;
+  top: 10%;
+ left: 55%;
+}
+.five-hundred{font-size: 2rem;}
 
 }
