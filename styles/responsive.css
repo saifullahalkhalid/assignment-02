@@ -40,7 +40,24 @@
 .habits-img-container{
   grid-template-columns: repeat(1, 1fr);
 }
+.run-section-container{
+  flex-direction: column;
+ 
 
+}
+.run-section-text{
+width: 100%;
+text-align: center;
+}
+.run-section-img{
+  width: 100%;
+ 
+}
+.run-section-img img{
+object-fit: fill;
+
+  
+}
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -53,6 +70,8 @@
         width: 50%;
         margin: 0 auto;
       }
+
+
       /* .banner-img img{ text-align: center;} */
   
   .five-hundred{font-size: 2rem;}
@@ -69,8 +88,22 @@
     grid-template-columns: repeat(2, 1fr);
 
    }
-
-
+   .run-section-text{
+    width: 35%;
+   }
+   .run-section-img{
+    width: 45%;
+    
+   
   }
-
+   .run-section-img img{
+    width: 100%;
+    object-fit:none;
+    object-position:65% 25% ;
+  margin-top: 65px;
+  }
+  .run-section-container{
+    justify-content: space-around;
+  }
+}
 
