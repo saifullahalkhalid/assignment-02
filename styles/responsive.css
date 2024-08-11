@@ -24,7 +24,9 @@
 .banner-img{
   width: 100%;
 }
+
 .video-tutorial{
+  
   top: 45%;
   left: 9%;
 }
@@ -35,4 +37,40 @@
 }
 .five-hundred{font-size: 2rem;}
 
+.habits-img-container{
+  grid-template-columns: repeat(1, 1fr);
 }
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+ 
+  .banner-container{
+    flex-direction: column;}
+    .banner-text{
+      width: 100%;}
+      .banner-img{
+        width: 50%;
+        margin: 0 auto;
+      }
+      /* .banner-img img{ text-align: center;} */
+  
+  .five-hundred{font-size: 2rem;}
+  .workout-videos{
+    padding: 5px 3px;
+    top: 10%;
+   left: 55%;}
+   .video-tutorial{
+    top: 60%;
+    left: 1%;
+
+   }
+   .habits-img-container{
+    grid-template-columns: repeat(2, 1fr);
+
+   }
+
+
+  }
+
+
