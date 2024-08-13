@@ -16,7 +16,16 @@
   /* width: 100%; */
 }
 .banner-text{
-  width: 100%;
+  width: 90%;
+    margin-left: 20px;
+}
+.btn-primary {
+  padding: 16px 28px;
+  border-radius: 42px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border: none;
 }
 .btn-responsive{
   flex-direction: row;
@@ -127,6 +136,28 @@ margin: 20px;
   margin-left: 15px;
  margin-top: 30px;
  }
+ .workout-container{
+  flex-direction: column;
+  
+ }
+ .workout-text{
+  width: 90%;
+  /* border: 2px solid red; */
+ }
+ .workout-video-2{
+width: 300px;
+margin-top: 40px;
+ }
+ .workout-video-2 iframe{
+  width: 90%;
+  /* border: 2px solid tomato; */
+ margin: 0 auto;
+ margin-left: 15px;
+ /* padding-top: 10px; */
+ /* padding-bottom: 10px; */
+  
+ }
+
 
 }
 
@@ -135,7 +166,7 @@ margin: 20px;
   .banner-container{
     flex-direction: column;}
     .banner-text{
-      width: 100%;}
+      width: 90%;}
       .banner-img{
         width: 50%;
         margin: 0 auto;

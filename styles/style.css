@@ -10,6 +10,8 @@
 * {
   margin: 0;
   padding: 0;
+  border: none;
+  
 }
 
 /* shared styles */
@@ -99,6 +101,7 @@ background-color: black;
 .banner-text {
   width: 56%;
   /* border: 2px solid red; */
+  margin-left: 10px;
 }
 .banner-title {
   width: 86%;
@@ -126,7 +129,7 @@ margin-top: 28px;
  
 }
 .btn-black{
-background-color:black;
+background-color:rgba(255, 255, 255, 0.041);
 border: 1px solid rgb(255, 255, 255);
 margin-left: 14px;
 }
@@ -305,6 +308,50 @@ object-position: 70% 30%;
 border-radius: 10px;
   
 }
+/* challenge section styles start here */
+.workout-container{
+  max-width: 1060px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+  padding: 40px;
+  background-color:rgba(34, 34, 34, 0.5) ;
+border-radius:15px ;
+}
+.workout-text{
+  width: 35%;
+  /* border: 2px solid purple; */
+  background-color: black;
+  border-radius: 15px;
+  padding: 20px;
+}
+.workout-text h2{
+  color:rgb(255, 255, 255) ;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top: 50px;
+
+}
+.workout-text p{
+  color:rgba(255, 255, 255, 0.5) ;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 20px;
+
+}
+.workout-video-2{
+  width: 50%;
+  /* margin: 0 auto; */
+  background-color: black;
+  padding: 20px;
+  border-radius: 15px;
+ 
+}
+.workout-video-2 iframe{
+  margin: 0 auto;
+  margin-left: 35px;
+}
+
 
 /* BMI CALCULATOR SECTION STYLES START HERE */
 
@@ -313,6 +360,7 @@ border-radius: 10px;
   margin: 0 auto;
   /* border: 2px solid red; */
   padding-bottom: 60px;
+  padding-top: 50px;
 
 }
 .bmi-chart{
@@ -397,6 +445,10 @@ background: rgba(255, 255, 255, 0.1);
 .child-5{
   grid-column: 1/span 2;
 }
+::placeholder{
+  color:rgba(255, 255, 255, 0.6) ;
+}
+
 /* TEAM SECTION STYLES STARTS HERE */
 
 .team-section{
