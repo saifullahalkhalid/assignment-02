@@ -138,7 +138,13 @@ margin: 20px;
  }
  .workout-container{
   flex-direction: column;
-  
+ 
+ }
+ .workout-text h2{
+  margin-top: 30px;
+ }
+ .workout-text h2{
+  margin-bottom: 20px;
  }
  .workout-text{
   width: 90%;
@@ -218,5 +224,17 @@ margin-top: 40px;
    
   
    }
+   .workout-video-2{
+    width: 300px;}
+    .workout-video-2 iframe{
+      width: 90%;
+      /* border: 2px solid tomato; */
+     margin: 0 auto;
+     margin-left: 15px;
+     /* padding-top: 10px; */
+     /* padding-bottom: 10px; */
+      
+     }
+    
 }
 
