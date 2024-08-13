@@ -69,6 +69,9 @@ object-fit: fill;
 }
 .bmi-chart{
   width:90%;
+  border: 2px solid orange;
+  margin-left: 18px;
+
 
  
 }
@@ -82,9 +85,9 @@ table{
   
 } */
 .calculate-bmi{
-  width: 100%;
+  width: 90%;
   margin-top: 50px;
-  padding: 5px ;
+  margin-left: 18px;
  
 
  }
@@ -92,8 +95,10 @@ table{
  width:250px;
   }
  .form-style{
+ grid-template-columns: repeat(2, 150px);
 
-  width:min-content;
+  border: 2px solid orange;
+
 
  }
  .input-file{
@@ -109,6 +114,22 @@ margin: 20px;
  .team-img{
   width: 100%;
   margin: 0 auto;
+ }
+ .footer-main{
+  flex-direction: column;
+ }
+ .get-started-container{
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 15px;
+ }
+ .get-started-2{
+  margin-top: 30px;
+ }
+ .fitness{
+  /* padding-left:15px ; */
+  margin-left: 15px;
+ margin-top: 30px;
  }
 
 }
