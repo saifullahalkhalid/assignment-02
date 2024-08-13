@@ -55,9 +55,62 @@ text-align: center;
 }
 .run-section-img img{
 object-fit: fill;
-
-  
 }
+.bmi-calculator-section{
+  max-width: 100%;
+  padding: 20px;
+}
+.bmi-section{
+  flex-direction: column;
+  
+ 
+
+ /* padding: 30px; */
+}
+.bmi-chart{
+  width:90%;
+
+ 
+}
+/* .bmi-chart h4{
+  display: flex;
+  justify-content: center;
+}
+table{
+  display: grid;
+  justify-content: center;
+  
+} */
+.calculate-bmi{
+  width: 100%;
+  margin-top: 50px;
+  padding: 5px ;
+ 
+
+ }
+ .calculate-bmi p{
+ width:250px;
+  }
+ .form-style{
+
+  width:min-content;
+
+ }
+ .input-file{
+  padding: 10px;
+  /* width: 145px; */
+ }
+
+ .team-section-img{
+ 
+  grid-template-columns: repeat(1,1fr);
+margin: 20px;
+ }
+ .team-img{
+  width: 100%;
+  margin: 0 auto;
+ }
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -104,6 +157,11 @@ object-fit: fill;
   }
   .run-section-container{
     justify-content: space-around;
+  }
+  .bmi-calculator-section{
+    width:100%;
+    text-align:left;
+    
   }
 }
 
