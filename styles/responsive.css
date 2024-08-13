@@ -69,8 +69,7 @@ object-fit: fill;
 }
 .bmi-chart{
   width:90%;
-  border: 2px solid orange;
-  margin-left: 18px;
+   margin-left: 18px;
 
 
  
@@ -97,10 +96,7 @@ table{
  .form-style{
  grid-template-columns: repeat(2, 150px);
 
-  border: 2px solid orange;
-
-
- }
+  }
  .input-file{
   padding: 10px;
   /* width: 145px; */
@@ -184,5 +180,12 @@ margin: 20px;
     text-align:left;
     
   }
+  .calculate-bmi{
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 18px;
+   
+  
+   }
 }
 

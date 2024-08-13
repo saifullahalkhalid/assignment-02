@@ -61,6 +61,11 @@ background-color: black;
 
   /* padding: 20px ; */
 }
+.nav-links{
+  border: 1px solid rgba(255, 255, 255, 0.1);;
+  padding: 20px;
+  border-radius: 30px;
+}
 .fitness-color {
   color: rgb(230, 83, 60);
   margin-left: 25px;
@@ -311,7 +316,7 @@ border-radius: 10px;
 }
 .bmi-chart{
   width: 30%;
-  border: 2px solid orange;
+  
 }
 .bmi-title{
   color: rgb(255, 255, 255);
@@ -326,7 +331,6 @@ margin-top: 14px;
 }
 .bmi-section{
   max-width: 1060px;
-  border: 2px solid red;
   margin: 0 auto;
   padding-top: 50px;
   justify-content: space-between;
@@ -361,7 +365,6 @@ td, th{
   color: rgb(255, 255, 255);
   font-size:1.8rem;
   font-weight: 900;
-  border: 2px solid purple;
   width: max-content;
 }
 .calculate-bmi p{
@@ -380,18 +383,14 @@ background: rgba(255, 255, 255, 0.1);
 }
 .calculate-bmi{
  width: 54%;
- border: 2px solid palevioletred;
- 
-}
+ }
 
 .form-style{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* padding: 33px; */
   gap: 20px;
   margin-top: 34px;
   margin-bottom: 34px;
-  border: 2px solid rgb(0, 255, 0);
   
 }
 .child-5{
@@ -401,16 +400,16 @@ background: rgba(255, 255, 255, 0.1);
 
 .team-section{
   max-width: 1060px;
-  border: 2px solid tomato;
+  
   margin: 0 auto;
+  padding-bottom: 50px;
 
 }
 .team-section-text{
   max-width: 670px;
-  border: 2px solid purple;
-  margin: 0 auto;
+   margin: 0 auto;
   text-align: center;
-  margin-top: 80px;
+ padding-top: 80px;
 }
 .team-section-text h1{
   color: rgb(255, 255, 255);
@@ -430,24 +429,25 @@ margin-top: 14px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
  grid-gap: 10px;
-  padding: 12px 12px 12px 12px;
+  padding: 12px 9px 12px 15px;
   
 
 background: rgba(255, 255, 255, 0.1);
 }
 .team-img{
-  max-width: 325px;
- 
-  position: relative;
+  max-width: 326px;
+   position: relative;
 }
 .team-img img{
   width: 100%;
+  height: 100%;
   border-radius:15px;
+  object-fit: cover;
   
 }
 .img-text{
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 8%;
 }
 
@@ -477,7 +477,7 @@ footer{
   margin: 0 auto;
  
   background-color: rgba(255, 255, 255, 0.1);
-  
+  padding-top: 40px;
 
 
 }
