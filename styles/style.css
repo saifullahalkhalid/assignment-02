@@ -40,6 +40,7 @@
 
 .bg-light {
   background-color: rgb(17, 17, 17);
+ 
 }
 main> section{
   max-width: 1440px;
@@ -482,7 +483,8 @@ margin-top: 14px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
  grid-gap: 15px;
-  padding: 20px 0px;
+  padding: 20px 15px;
+  margin: ;
   
 
 background: rgba(255, 255, 255, 0.1);
