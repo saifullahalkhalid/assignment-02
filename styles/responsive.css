@@ -138,6 +138,8 @@ margin: 20px;
  }
  .workout-container{
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
  
  }
  .workout-text h2{
@@ -153,6 +155,9 @@ margin: 20px;
  .workout-video-2{
 width: 300px;
 margin-top: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
  }
  .workout-video-2 iframe{
   width: 90%;
